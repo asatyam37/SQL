@@ -1,0 +1,7 @@
+SQL = Structured Query Language
+SQL is a language used to communicate with relational databases
+It ALLOWS US TO CREATE, READ, UPDATE AND DELETE DATA (CRUD)
+SQL can also be used to define tables, relationships, cinstraints, indexes, etc.
+SQL is primarily a declarative language we tell the database what we want, not exactly how to get It
+Different database systems may have their own SQL extensions and syntax
+
