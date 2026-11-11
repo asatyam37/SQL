@@ -48,7 +48,8 @@ CREATE TABLE employees(
     manager_id INT REFERENCES employees(employee_id)
 );
 
-INSERT INTO employees (first_name, last_name, email, department_id, job_title, salary, manager_id, hire_date) VALUES
+INSERT INTO employees (first_name, last_name, email, department_id, job_title, salary, manager_id, hire_date)
+VALUES
     ('Priya',  'Nair',      'priya.nair@techbazaar.com',      1, 'Sales Representative', 62000.00, 1,    '2020-06-15'),
     ('Fake',   'Robert',    'robert.chen@techbazaar.com',     1, 'Rep',                  50000.00, 1,    '2024-01-01'),
     ('Marcus', 'Webb',      'marcus.webb@techbazaar.com',     1, 'Sales Representative', 58000.00, 1,    '2021-09-01'),
@@ -90,3 +91,4 @@ RENAME COLUMN internal_note TO hr_note
 
 ALTER TABLE employees
 DROP COLUMN hr_note
+
